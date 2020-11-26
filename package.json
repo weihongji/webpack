@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "webpack": "^5.7.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build-without-webpack-config.js": "webpack --entry=./index.js --output-filename=bundle.js --mode=development",
+    "build": "webpack",
+    "dev-wrong": "webpack-dev-server",
+    "dev": "webpack serve",
+    "dev-comment": "To see result, open http://localhost:8080/, not file:///E:/js/webpk/index.html"
+  }
+}
